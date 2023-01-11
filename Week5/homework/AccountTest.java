@@ -69,7 +69,7 @@ public class AccountTest {
         System.out.println();
 
         System.out.println("Choose Account: " + c2.getAccountNumber());
-        System.out.print("Choose Action(1. Withdraw 2. Deposit): ");
+        System.out.print("Choose Action (1. Withdraw 2. Deposit) : ");
         int action = scan.nextInt();
         if (action == 1) {
             System.out.print("Value: ");
@@ -82,7 +82,7 @@ public class AccountTest {
         }
 
         System.out.println("Choose Account: " + b1.getAccountNumber());
-        System.out.print("Choose Action(1. Withdraw 2. Deposit): ");
+        System.out.print("Choose Action (1. Withdraw 2. Deposit) : ");
         action = scan.nextInt();
         if (action == 1) {
             System.out.print("Value: ");
@@ -94,7 +94,7 @@ public class AccountTest {
             b1.deposit(value);
         }
         System.out.println("Choose Account: " + c2.getAccountNumber());
-        System.out.print("Choose Action(1. Withdraw 2. Deposit): ");
+        System.out.print("Choose Action (1. Withdraw 2. Deposit) : ");
         action = scan.nextInt();
         if (action == 1) {
             System.out.print("Value: ");
@@ -105,6 +105,5 @@ public class AccountTest {
             double value = scan.nextDouble();
             c2.deposit(value);
         }
-
     }
 }
